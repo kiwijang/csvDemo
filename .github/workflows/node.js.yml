@@ -20,4 +20,5 @@ jobs:
       uses: actions/setup-node@v3
     - run: npm install
     - run: sudo mkdir '/docs'
+    - run: sudo chown -R $USER /docs/
     - run: sudo npm run build
