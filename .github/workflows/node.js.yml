@@ -21,4 +21,4 @@ jobs:
     - run: npm install
     - run: sudo mkdir '/docs'
     - run: sudo chown -R $USER /docs/
-    - run: sudo npm run build --base-href=/csvDemo/
+    - run: sudo npm run build --base-href=/csvDemo/ --deploy-url /csvDemo/
