@@ -23,7 +23,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "csv-demo",
+            "prefix": "dm2023",
             "style": "kebab-case"
           }
         ]

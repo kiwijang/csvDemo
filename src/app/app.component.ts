@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'csv-demo-root',
+  selector: 'dm2023-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })

@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(238, 238, 238);
+  color: rgb(66, 66, 58);
+  border-radius: 4px 4px 0px 0px;
+  padding: 8px;
+  padding-top: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 10px solid rgb(160, 160, 160);
+  border-top-width: 0px;
+  border-left: 3px solid rgb(190, 190, 187);
+  border-right: 3px solid rgb(190, 190, 187);
+  box-shadow: inset 0px -1px 2px 1px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    transition: 0.2s;
+    border-bottom-width: 3px;
+  }
+}
+
+.pre {
+    min-height: 100px;
+    min-width: 300px;
+    border: 1px solid gray;
+    padding: 50px;
+}
+
+.wrap {
+    min-height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
